@@ -4,9 +4,10 @@ import { ShowCaseService } from '@modules/show-case/services/show-case.service';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-show-case-page',
-  templateUrl: './show-case-page.component.html',
-  styleUrls: ['./show-case-page.component.css'],
+    selector: 'app-show-case-page',
+    templateUrl: './show-case-page.component.html',
+    styleUrls: ['./show-case-page.component.css'],
+    standalone: false
 })
 export class ShowCasePageComponent implements OnInit {
 

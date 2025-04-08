@@ -4,9 +4,10 @@ import { ShowCaseService } from '@modules/show-case/services/show-case.service';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-ui-block-item',
-  templateUrl: './ui-block-item.component.html',
-  styleUrls: ['./ui-block-item.component.css']
+    selector: 'app-ui-block-item',
+    templateUrl: './ui-block-item.component.html',
+    styleUrls: ['./ui-block-item.component.css'],
+    standalone: false
 })
 export class UiBlockItemComponent implements OnInit {
 

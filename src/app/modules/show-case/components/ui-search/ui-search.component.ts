@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { ShowCaseService } from '@modules/show-case/services/show-case.service';
 
 @Component({
-  selector: 'app-ui-search',
-  templateUrl: './ui-search.component.html',
-  styleUrls: ['./ui-search.component.css']
+    selector: 'app-ui-search',
+    templateUrl: './ui-search.component.html',
+    styleUrls: ['./ui-search.component.css'],
+    standalone: false
 })
 export class UiSearchComponent implements OnInit {
 
